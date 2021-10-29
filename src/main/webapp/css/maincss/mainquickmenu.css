@@ -1,0 +1,64 @@
+@charset "UTF-8";
+.quick_menu ul
+{
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.quick_menu ul li
+{
+	float: left;
+	margin-left: 80px;
+}
+.quick_menu ul li:first-child
+{
+	margin-left: 0;
+}
+.quick_menu ul li a
+{
+	display: block;
+    overflow: hidden;
+    position: relative;
+    height: 70px;
+    padding-left: 90px;
+}
+.quick_menu ul li a strong
+{
+	font-size: 18px;
+	display: block;
+	color: black;
+	margin-top:15px;
+	text-align: left;
+}
+.quick_menu ul li a span
+{
+	font-size: 13px;
+	display: block;
+	margin-top: 5px;
+	color: lightgray;
+}
+.quick_menu ul li .icon
+{
+	width: 70px;
+	height: 70px;
+	background: url(../img/mainimg/icon_quickmenu.png) no-repeat;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.quick_menu ul li.q1 .icon
+{
+	background-position: 0px 0px;
+}
+.quick_menu ul li.q2 .icon
+{
+	background-position: -70px 0px;
+}
+.quick_menu ul li.q3 .icon
+{
+	background-position: -140px 0px;
+}
+.quick_menu ul li.q4 .icon
+{
+	background-position: -210px 0px;
+}
