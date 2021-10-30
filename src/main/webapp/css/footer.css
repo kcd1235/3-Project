@@ -80,12 +80,12 @@
 }
 #footer .footer_bottom .sns a:first-child
 {
-    background: url(../img/icon_sns_instar.png) 100% 0 no-repeat;
+    background: url(/img/common/icon_sns_instar.png) 100% 0 no-repeat;
     background-position: -49px;
 }
 #footer .footer_bottom .sns a:last-child
 {
-    background: url(../img/icon_sns_facebook.png) 100% 0 no-repeat;
+    background: url(/img/common/icon_sns_facebook.png) 100% 0 no-repeat;
     background-position: -49px;
     margin-left: 15px;
 }

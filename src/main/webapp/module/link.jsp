@@ -18,5 +18,8 @@
 	<link href="css/header.css" rel="stylesheet">
 	<link href="css/nav.css" rel="stylesheet">
 	<link href="css/footer.css" rel="stylesheet">
+	
+	<!--tab메뉴에 공통으로 사용할 js  -->
+	<script src="js/tab.js"></script>
 </body>
 </html>

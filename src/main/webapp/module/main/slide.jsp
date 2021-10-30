@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link href="css/maincss/mainslide.css" rel="stylesheet">
+<script src="js/mainslide.js"></script>
 </head>
 <body>
 	<div class="slide">
@@ -59,8 +60,7 @@
 								</strong>
 							</a>
 						</div>
-					</div>
-					
+					</div>				
 				</div>
 				<div class="quick_mobile">
 					<div class="quick_mobile_contents">
