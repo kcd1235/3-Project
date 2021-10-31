@@ -50,3 +50,93 @@
     line-height: 30px;
     font-size: 13px;
 }
+.sub_head
+{
+	width:100%; height:50px; background-color:red;
+    position: relative;
+}
+
+.sub_head .content
+{
+        width: 92.7%;
+        margin: 0 auto;
+        position: relative;
+        height: 65px;
+        line-height: 120%;
+}
+    .sub_head .content .logo_cont
+    {
+        width: 110px;
+        height: 60px;
+        background-color: blue;
+        position: absolute;
+        background:url(/img/common/logo_sub_header.png) 0 50% no-repeat;
+        left: 0;
+        top: 0;
+    }
+    .sub_head .content .sub_list
+    {
+        text-align: center;
+    }
+    .sub_head ul
+    {
+       display: inline-block;
+       height: 60px;
+    }
+    .sub_head ul li
+    {
+        float: left;
+        position: relative;
+       height: 60px;
+        margin-left: 24px;
+        padding-left: 21px;
+        font-size: 16px;
+    }
+     .sub_head ul li.active a
+     {
+     	color:yellow;
+     }
+      .sub_head ul li.active a:after
+      {
+      	content: '';
+      	position: absolute;
+      	left: 0;
+      	width: 100%;
+      	height: 4px;
+      	bottom: 0;
+      	background-color:yellow;
+      }
+    .sub_head ul li a
+    {
+        display: block;
+        line-height: 60px;
+        color: #999999;
+        font-size: 16px;
+        position: relative;
+    }
+    .sub_head ul li::after
+    {
+        content: '';
+        width: 4px;
+        height: 4px;
+        background-color: #dddddd;
+        border-radius: 30px;
+        position: absolute;
+        left: 0;
+        top: 28px;
+    }
+    .sub_head ul li:first-child::after
+    {
+        width: 0;
+        height: 0;
+    }
+    .sub_head ul li:first-child
+    {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .contents
+    {
+        height: 2000px;
+        border: 1px solid gray;
+    }

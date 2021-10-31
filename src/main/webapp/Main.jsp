@@ -9,7 +9,9 @@
 </head>
 <body>
 	<div id="wrap">
-		<%@include file="module/common/header.jsp" %>
+		<header id="header">
+			<%@include file="module/common/header.jsp" %>
+		</header>
 		<div class="contents">
 			<%@include file="module/main/slide.jsp" %>
 			<%@include file="module/main/maintabmenu.jsp" %>

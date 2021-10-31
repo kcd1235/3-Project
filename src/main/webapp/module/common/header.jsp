@@ -7,9 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<header id="header">
-		<%@include file="header_top.jsp" %>
-		<%@include file="nav.jsp" %>	
-	</header>
+	<%@include file="header_top.jsp" %>
+	<%@include file="nav.jsp" %>
 </body>
 </html>
